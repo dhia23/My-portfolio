@@ -1,0 +1,13 @@
+
+# Our global, build settings
+[build]
+   base    = "master"        # run the buold from this directory
+   publish = "public"      # the output diretory to push to the CDN after the build
+   command = "gulp build"  # the command to build our site
+  
+# Specific branch context: Deploys from this branch
+# will take these settings and override their
+# current ones.
+[context."feature/branch"]
+   command = "gulp build:my-feature"  # For this branch we'd prefer to build with this
+  
