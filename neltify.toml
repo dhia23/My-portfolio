@@ -1,6 +1,6 @@
 
 # Our global, build settings
-[build]
+[make all]
    base    = "master"        # run the buold from this directory
    publish = "public"      # the output diretory to push to the CDN after the build
    command = "make all"  # the command to build our site
