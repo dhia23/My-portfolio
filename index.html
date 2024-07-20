@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dhiaeddine Badrouche</title>
+
+    <!--
+    - favicon
+  -->
+    <!-- <link
+      rel="shortcut icon"
+      href="./assets/images/avatar-3.png"
+      type="image/x-icon"
+    /> -->
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img style="border-radius: 20px;"
+              src="./assets/images/1720579479786.jpeg"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Dhia eddine Badrouche</h1>
+
+            <p class="title">
+              Expertise in Full-Stack |
+              Development and AI-Powered Solutions
+            </p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:richard@example.com" class="contact-link"
+                  >badrouchedhiaeddine@gmail.com</a
+                >
+              </div>
+            </li>
+
+
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="1982-06-23">June 23, 2002</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Tunisa, Nabeul, BK</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/dhia23" target="_blank" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://www.linkedin.com/in/dhia-eddine-badrouche-690823155" target="_blank" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Skills</button>
+            </li>
+
+
+          </ul>
+        </nav>
+
+
+
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title ">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              Hi, I'm Dhia Eddine, a computer science graduate passionate about
+              building AI-powered solutions that make a real impact.
+            </p>
+
+            <p>
+              My expertise lies in leveraging Large Language Models , Natural
+              Language Processing techniques, and frameworks like LangChain to
+              create intelligent applications. I recently developed FindIT, an
+              AI-driven search engine that revolutionized IT equipment
+              management at Délice Danone. I thrive on challenges and am
+              constantly seeking new ways to apply AI and NLP to solve complex
+              problems.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">AI-Powered Chatbot</h4>
+
+                  <p class="service-item-text">
+                    Develop a chatbot that can interact with users in natural
+                    language, answer questions, and perform tasks.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-photo.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Text Summarization Tool</h4>
+
+                  <p class="service-item-text">
+                    Create a tool that can automatically summarize articles,
+                    documents, or other text-based content. This would be useful
+                    for researchers, students, or anyone who needs to quickly
+                    digest large amounts of information.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+                <time datetime="2021-06-14">14 June, 2021</time>
+
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  High school nahj el menzah 
+                </h4>
+
+                <span>2017 — 2021</span>
+
+                <p class="timeline-text">
+                  Bachelor's degree in Mathematics.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Higher Institute of Computer Science and Management of Kairouan</h4>
+
+                <span>2021 — 2024</span>
+
+                <p class="timeline-text">
+                  Diploma in Computer Science
+                </p>
+              </li>
+
+              
+            </ol>
+          </section>
+
+
+
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Development</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">AI-Powered Solutions</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+    
+        <section class="projects">
+            <ul class="filter-list">
+                <li class="filter-item">
+                    <button class="active" data-filter-btn data-filter="all">All</button>
+                </li>
+                <li class="filter-item">
+                    <button data-filter-btn data-filter="AI-applications">AI-Applications</button>
+                </li>
+                <li class="filter-item">
+                    <button data-filter-btn data-filter="web development">Web Development</button>
+                </li>
+            </ul>
+    
+            <div class="filter-select-box">
+                <button class="filter-select" data-select>
+                    <div class="select-value" data-select-value>Select Category</div>
+                    <div class="select-icon">
+                        <ion-icon name="chevron-down"></ion-icon> 
+                    </div>
+                </button>
+                <ul class="select-list">
+                    <li class="select-item"><button data-select-item data-filter="all">All</button></li>
+                    <li class="select-item"><button data-select-item data-filter="AI-applications">AI-Applications</button></li>
+                    <li class="select-item"><button data-select-item data-filter="web development">Web Development</button></li>
+                </ul>
+            </div>
+    
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://dhia23.github.io/My_Fird_Project/#articles " target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/exemple1.png"
+                      alt="Static Webpage Design"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Static Webpage Design</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://dhia23.github.io/Dashboard/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/exemple2.png"
+                      alt="Dashboard"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Dashboard</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+                loading="lazy"
+              >
+                <a href="https://dhia23.github.io/First_site/#services_section"  target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/exemple3.png"
+                      alt="Static Webpage Design"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Static Webpage Design</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="AI-applications"
+        
+              >
+                <a href="./Gellery.html" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="AI-applications"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">FindIT</h3>
+
+                  <p class="project-category">AI-Applications</p>
+                </a>
+              </li>
+
+
+
+
+            </ul>
+        </section>
+    </article>
+    
+
+        <!--
+        - #BLOG
+      -->
+      <article class="skills" data-page="skills">
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+
+        <section class="skills">
+
+          <div class="skill-category">
+            <div class="skill-item">
+              <i class="fas fa-code skill-icon"></i>
+              <div>
+                <span class="skill-title">Languages & Frameworks:</span>
+                <ul>
+                  <li><b>Languages:</b> Python, JavaScript (ES6+)</li>
+                  <li><b>Frontend:</b> React.js, Bootstrap</li>
+                  <li><b>Backend:</b> Django, Node.js, Express.js</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-item">
+              <i class="fas fa-brain skill-icon"></i> 
+              <div>
+                <span class="skill-title">Artificial Intelligence & NLP:</span>
+                <ul>
+                  <li>LangChain (LLM Application Framework)</li>
+                  <li>Large Language Models (LLMs)</li>
+                  <li>Semantic Search</li>
+                  <li>Natural Language Processing (NLP)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="skill-item">
+              <i class="fas fa-database skill-icon"></i> 
+              <div>
+                <span class="skill-title">Database Systems:</span>
+                <ul>
+                  <li>MongoDB (NoSQL)</li>
+                  <li>PostgreSQL (Relational)</li>
+                  <li>Vector Databases</li> 
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <div class="skill-item">
+              <i class="fas fa-project-diagram skill-icon"></i>
+              <div>
+                <span class="skill-title">Agile Methodologies:</span>
+                <ul>
+                  <li>Scrum</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+</div>
+        </section>
+      </article>
+        <!--
+        - #CONTACT
+      -->
+
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+    const filterBtns = document.querySelectorAll('[data-filter-btn]');
+    const projectItems = document.querySelectorAll('.project-item');
+    const selectValue = document.querySelector('[data-select-value]');
+    const selectItems = document.querySelectorAll('[data-select-item]');
+    const selectList = document.querySelector('.select-list');
+    const selectBox = document.querySelector('.filter-select-box'); // Select Box
+
+    // Filter functionality (buttons)
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const filter = btn.dataset.filter;
+            filterProjects(filter);
+            updateActiveButton(btn);
+            updateSelectValue(filter);
+        });
+    });
+
+    // Filter functionality (select dropdown)
+    selectItems.forEach(item => {
+        item.addEventListener('click', () => {
+            const filter = item.dataset.filter;
+            filterProjects(filter);
+            updateSelectValue(filter);
+            selectList.classList.remove('active'); // Close dropdown after selection
+        });
+    });
+
+    selectBox.addEventListener('click', () => {
+        selectList.classList.toggle('active'); // Toggle dropdown visibility
+    });
+
+    // Function to filter projects
+    function filterProjects(filter) {
+        projectItems.forEach(item => {
+            const category = item.dataset.category;
+            if (filter === 'all' || category === filter) {
+                item.classList.add('active');
+            } else {
+                item.classList.remove('active');
+            }
+        });
+    }
+
+    // Function to update active button style
+    function updateActiveButton(clickedBtn) {
+        filterBtns.forEach(btn => btn.classList.remove('active'));
+        clickedBtn.classList.add('active');
+    }
+
+    // Function to update select value
+    function updateSelectValue(filter) {
+        selectValue.textContent = filter === 'all' ? 'Select Category' : filter;
+    }
+});
+
+    </script>
+    
+  </body>
+</html>

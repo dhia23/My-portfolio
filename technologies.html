@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Skills</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(
+      to bottom right, 
+      hsla(240, 1%, 18%, 0.251) 0%, 
+      hsla(240, 2%, 11%, 0) 100%
+    ), hsl(240, 2%, 13%);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: linear-gradient(
+      to bottom right, 
+      hsla(240, 1%, 18%, 0.251) 0%, 
+      hsla(240, 2%, 11%, 0) 100%
+    ), hsl(240, 2%, 13%); /* Semi-transparent white background */
+            border-radius: 15px;
+            box-shadow: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px  linear-gradient(
+      to bottom right, 
+      hsl(45, 100%, 71%) 0%, 
+      hsla(36, 100%, 69%, 0) 50%);
+            color :hsl(45, 54%, 58%)/* Subtle text shadow */
+        }
+        
+        a{
+  text-decoration: none;
+}
+        .skill-item {
+            display: flex; /* Arrange icon and title horizontally */
+            align-items: center;  
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.05); /* Subtle background for each item */
+            transition: transform 0.2s ease, box-shadow 0.2s ease; /* Hover effects */
+        }
+
+        .skill-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .skill-icon {
+            font-size: 2em;
+            margin-right: 15px;
+            color: hsl(45, 54%, 58%);
+        }
+
+        .skill-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: hsl(45, 54%, 58%);
+        }
+
+        ul {
+            list-style:circle; /* Remove default list bullets */
+            padding: 0;
+            margin-left: 20px; /* Indent list items */
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <h2>My Skills</h2>
+
+    <div class="skill-category">
+        <div class="skill-item">
+            <i class="fas fa-code skill-icon"></i>
+            <div>
+                <span class="skill-title">Languages & Frameworks:</span>
+                <ul>
+                    <li>
+                        <b>Languages:</b> Python, JavaScript (ES6+)
+                    </li>
+                    <li>
+                        <b>Frontend:</b> React.js, Bootstrap
+                    </li>
+                    <li>
+                        <b>Backend:</b> Django, Node.js, Express.js
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="skill-category">
+        <div class="skill-item">
+            <i class="fas fa-brain skill-icon"></i> 
+            <div>
+                <span class="skill-title">Artificial Intelligence & NLP:</span>
+                <ul>
+                    <li>LangChain (LLM Application Framework)</li>
+                    <li>Large Language Models (LLMs)</li>
+                    <li>Semantic Search</li>
+                    <li>Natural Language Processing (NLP)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="skill-category">
+        <div class="skill-item">
+            <i class="fas fa-database skill-icon"></i> 
+            <div>
+                <span class="skill-title">Database Systems:</span>
+                <ul>
+                    <li>MongoDB (NoSQL)</li>
+                    <li>PostgreSQL (Relational)</li>
+                    <li>Vector Databases</li> 
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="skill-category">  
+      <div class="skill-item methodologies"> 
+          <i class="fas fa-project-diagram skill-icon"></i>
+          <div>
+              <span class="skill-title">Agile Methodologies:</span>
+              <ul>
+                  <li>Scrum</li>
+                  </ul>
+          </div>
+      </div>
+  </div>
+
+</div> 
+
+       
+        </div>
+   
+</body>
+</html>
